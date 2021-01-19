@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 92vh;
+}
+
+.first-carousel{
+    background-color: #EEEFF3;
+    height:  -webkit-fill-available;
+}
+
+.second-carousel{
+    background-color: #fff;
+    height:  -webkit-fill-available;
+
+}
+
+.third-carousel{
+    background-color: #F7F7F7;
+    height:  -webkit-fill-available;
+}
+
+
+.sevices{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img-fluid{
+    width: 400px;
+}
+
+
+.btn-outline-success{
+    border-color: #fff;
+    color: white;
+
+}
+
+.btn-outline-success:hover{
+    color: white;
+    background-color: orangered;
+    border-color: white;
+}
+
+.btn-outline-success:active:focus{
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
+}
+
+
+.btn-outline-success:focus{
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
+}
+
+.mybtn:active:focus,.mybtn:focus{
+    box-shadow: 0 0 0 0.25rem rgba(255, 72, 0, 0.5);
+}
+
+
+
+.bg-light{
+    background-color:rgb(255 178 40) !important;
+}
+
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: initial;
+}
+
+
+.a-main-font{
+   color:#FF4500;
+    font-weight:400;
+     font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+.carousel-image{
+    opacity: 0.3;
+}
+
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-para{
+    font-family: 'Laila', serif;
+    font-size: 16px;
+}
+
+.course-heading{
+    font-size: 20px;
+}
+
+
+#accordion-button-2:not(.collapsed){
+    background-color:#ff4500;
+    color: white;
+}
+
+.accordion-button:not(.collapsed){
+    background-color:white;
+    color: #212529;
+    border: none;
+}
+
+
+
+
+.accordion-button.collapsed{
+    border: none;
+}
+
+
+.main-heading{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+
+.mybtn{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: calc(0.500rem + 0.7vw);
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 20px;
+    margin-top: calc(0.100rem + 0.9vw);
+    background-color: #ff4500!important;
+    color: white;
+    border: none;
+
+    
+}
+
+
+.section-3-img{
+    width: 610px;
+    height: 400px;
+}
+
+
+.counter{
+    font-size: 24px;
+    color:#0d6efd ;
+}
+
+
+
+.fa-3x{
+    color:#0d6efd ;
+}
+
+.cont{
+    display: none;
+}
+
+.padding-L-R-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.get-middle{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.user{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+.team-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.icon-color{
+    color: #0d6efd;
+}
+.course-body:hover{
+    background: orangered;
+    color: white;
+}
+
+.my-card{
+    border: none;
+}
+
+
+
+.accordion-button::after{
+    flex-shrink: 3;
+}
+
+
+.top-heading{
+    margin-top: 5rem;
+    margin-bottom: auto;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color:rgb(255 178 40);
+}
+
+
+
+
+
+
+
+@media (max-width: 1399.98px) { }
+
+
+@media (max-width: 1199.98px) { }
+
+
+@media (max-width: 991.98px) { 
+
+    .carousel-item{
+        height: 800px;
+    }
+
+    .get-center{
+        text-align: center!important;
+    }
+    
+    .section-3-img{
+        width: 500px;
+        height: auto;
+    }
+    
+    .top-heading{
+        margin-top: auto;
+        padding-bottom: auto;
+    }
+    
+    
+    
+}
+
+
+
+
+@media (max-width: 779.98px) {
+
+    .carousel-item{
+        height: 665px;
+    }
+    
+    
+    .cont{
+        display:inline;
+    }
+    
+    .cont1{
+        display: none;
+    }
+    
+    
+    .top-heading{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .center-position{
+        text-align: center!important;
+    }
+    
+    .item-position{
+        text-align: center!important;
+    }
+    
+    .sec-gap{
+        margin-top: 3rem!important;
+        margin-bottom: 3rem!important;
+    }
+    
+   
+    
+    .section-3-img{
+        height: 400px;
+    }
+    
+}
+
+
+
+@media (max-width: 575.98px) { 
+    
+    .carousel-item{
+        height: 665px;
+    }
+    .section-3-img{
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
